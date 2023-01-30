@@ -37,6 +37,6 @@ Coté Client (Arona) :
 - Détail sur une conférence
 
 (Après V1 :)
-Possibilité de faire de Nouveau Compte
-Profil Privée ou Publique (s’affiche pas sur la liste et la carte)
-Possibilité de de se rajouter ou se retirer d'une conférence (donc avoir un menu si conf == null)
+* Possibilité de faire de Nouveau Compte
+* Profil Privée ou Publique (s’affiche pas sur la liste et la carte)
+* Possibilité de de se rajouter ou se retirer d'une conférence (donc avoir un menu si conf == null)
