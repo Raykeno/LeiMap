@@ -18,16 +18,19 @@ API de carte?
 MapKit
 
 Modèle :
-- Participant (id, Nom, Age, Email, Mot de Passe, Sexe, Profession)
-- Animateur (id, Nom, Age, etc…)
-- Conférence (id, Nom, Thème, Animateurs, Participants, nombre de partcipants, description, date de début, date de fin, location(API maps?) )
-- Lieu (Liste des participants, id MapKit?) (Voir le CLLocationManager())
+- Participant (Nom, Email, Mot de Passe, Biographie)
+- Lieu (Nom, Adresse, Image, liste des participants actuel au lieu, location(Apple MapKit))
 
 Coté Serveur (Otto) :
 - Serveur PHP REST API
-- Database (SQLite ou MySQL
+- Database
 
-(https://.../participant/11)
+Requêtes :
+(Soit https://… comme adresse source)
+
+* Voir tout les participants :  GET /participants/
+* Voir tout les participants dans un lieu :  GET /lieu/$[id]/participants
+* Récupérer les infos d’un participant : GET /partcipant/$[id]
 
 Coté Client (Arona) :
 - Menu de Login
